@@ -1,3 +1,32 @@
 {
-  "extends": "next/core-web-vitals"
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": [
+    "next/core-web-vitals",
+    "next",
+    "prettier",
+    "plugin:@next/next/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/classnames-order": "error"
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cn", "cva"],
+      "config": "tailwind.config.js"
+    },
+    "next": {
+      "rootDir": ["src/*/"]
+    }
+  },
+  "root": true,
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx", "*.mdx"],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
 }

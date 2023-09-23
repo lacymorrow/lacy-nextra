@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden"
+  },
+  "work": {
+    "title": "Work",
+    "type": "page"
+  },
+  "play": {
+    "title": "Play",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "sink": {
+    "display": "hidden"
+  }
+}
