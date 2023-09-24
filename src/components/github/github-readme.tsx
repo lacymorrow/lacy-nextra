@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { parse } from "marked";
-import { componentMap } from "@/components/mdx/mdxComponents";
-import "github-markdown-css";
+// import "github-markdown-css";
+import "@/styles/github.css";
 
 const GithubReadme: React.FC<{ username: string; repo: string }> = ({
   username,

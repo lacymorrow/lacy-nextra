@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-gh-css": "npx generate-github-markdown-css > public/github-markdown.css"
   },
   "dependencies": {
     "@mdx-js/mdx": "^2.3.0",
@@ -26,6 +27,7 @@
     "eslint-config-next": "^13.5.2",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-tailwindcss": "^3.13.0",
+    "generate-github-markdown-css": "^5.1.0",
     "github-markdown-css": "^5.2.0",
     "lucide-react": "^0.279.0",
     "marked": "^9.0.3",
