@@ -14,7 +14,7 @@ const themeConfig = {
 		labels: 'feedback'
 	},
 	editLink: {
-		text: 'Edit this page on GitHub →',
+		text: 'Edit on GitHub →',
 	},
 	useNextSeoProps() {
 		const { asPath } = useRouter()

@@ -16,6 +16,18 @@
     "title": "About",
     "type": "page"
   },
+  "fly5": {
+    "title": "Fly5 ↗",
+    "type": "page",
+    "href": "#",
+    "newWindow": true
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "#",
+    "newWindow": true
+  },
   "sink": {
     "display": "hidden"
   }
