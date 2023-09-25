@@ -1,6 +1,10 @@
 {
   "crossover": "CrossOver",
   "casper": "Casper WP Theme",
-  "xspf": "XSPF Jukebox",
-  "art": "Flash Art"
+  "cinematic": "Cinematic",
+  "npm-libraries": "NPM Libraries",
+  "php": "PHP Libraries",
+  "flash": "Flash Applications",
+  "art": "Flash Art",
+  "xspf": "XSPF Jukebox"
 }

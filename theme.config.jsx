@@ -1,7 +1,7 @@
 import Logo from '@/components/images/logo'
 import Socials from '@/components/layout/socials'
 import { PaperPlaneIcon } from '@radix-ui/react-icons';
-import { Mail, MailboxIcon, SendHorizonalIcon } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { useRouter } from 'next/router';
 const themeConfig = {
 	docsRepositoryBase: 'https://github.com/lacymorrow/lacy-nextra/tree/main/src/pages',

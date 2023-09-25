@@ -25,14 +25,24 @@ import { Wikipedia } from "mdx-embed/dist/components/wikipedia";
 import { Wistia } from "mdx-embed/dist/components/wistia";
 import { YouTube } from "mdx-embed/dist/components/youtube";
 
-import GithubReadme from '@/components/github/github-readme'
+import { Callout, Card, Cards, FileTree, Steps, Tabs } from 'nextra/components'
+
+import Readme from '@/components/github/readme'
 import FlashArt from '@/components/flash/art'
 import Ruffle from '@/components/flash/ruffle'
 
 export const componentMap = {
-	GithubReadme,
+	Readme,
 	FlashArt,
 	Ruffle,
+
+	// nextra
+	Callout,
+	Card,
+	Cards,
+	FileTree,
+	Steps,
+	Tabs,
 
 	// mdx-embed
 	AirtableBase,
