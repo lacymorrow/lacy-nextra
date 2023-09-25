@@ -1,7 +1,13 @@
 import { componentMap } from "@/components/mdx/mdxComponents";
 
-import "@/app/globals.css";
+import { useRouter } from 'next/router'
+import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} components={componentMap} />;
+	const { asPath } = useRouter();
+  return (
+		<div {...(asPath !== '/' && { className: "background-pattern" })}>
+			<Component {...pageProps} components={componentMap} />
+		</div>
+	);
 }
