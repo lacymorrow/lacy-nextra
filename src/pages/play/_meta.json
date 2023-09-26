@@ -2,8 +2,10 @@
   "crossover": "CrossOver",
   "casper": "Casper WP Theme",
   "cinematic": "Cinematic",
-  "npm-libraries": "NPM Libraries",
+  "js": "JavaScript Libraries",
+  "react": "React Libraries",
   "php": "PHP Libraries",
+  "python": "Python Libraries",
   "flash": "Flash Applications",
   "art": "Flash Art",
   "xspf": "XSPF Jukebox"

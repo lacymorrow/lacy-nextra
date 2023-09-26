@@ -3,7 +3,6 @@ import { parse } from "marked";
 import { Callout } from "nextra/components";
 import { GitHubReadme } from "react-github-readme-md";
 
-// import "github-markdown-css";
 import "@/styles/github.css";
 import Link from "next/link";
 import { InfoCircledIcon } from "@radix-ui/react-icons";

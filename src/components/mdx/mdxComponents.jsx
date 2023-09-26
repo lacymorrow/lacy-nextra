@@ -28,11 +28,13 @@ import { YouTube } from "mdx-embed/dist/components/youtube";
 import { Callout, Card, Cards, FileTree, Steps, Tabs } from 'nextra/components'
 
 import Readme from '@/components/github/readme'
+import Flash from '@/components/flash/flash'
 import FlashArt from '@/components/flash/art'
 import Ruffle from '@/components/flash/ruffle'
 
 export const componentMap = {
 	Readme,
+	Flash,
 	FlashArt,
 	Ruffle,
 

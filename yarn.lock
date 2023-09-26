@@ -4491,10 +4491,10 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-github-readme-md@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-github-readme-md/-/react-github-readme-md-1.0.2.tgz#57af57c18c8fd2380acc0d10478ef140351ba430"
-  integrity sha512-4H73mHrIQcxqVxhkl+pjJQ6fB5To4VKDrGlmDpGD958Gnh2e8eINSs6SaxjJOcHeDAYdMvaaPNnAqiStHHZscQ==
+react-github-readme-md@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-github-readme-md/-/react-github-readme-md-1.0.3.tgz#17cd6ccd4f3aa34862e243674230f834338bfad3"
+  integrity sha512-hIRwVhiwKpup6HGrgEetbRPVsAjo6mJgSz8TZV/XarZCSLlEY/lmBgF7uspFjZc6is+OCbopaoTcbQBdB8p/xQ==
   dependencies:
     marked "^9.0.3"
     whatwg-fetch "^3.6.19"

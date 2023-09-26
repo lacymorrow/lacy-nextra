@@ -7,7 +7,8 @@ const themeConfig = {
 	docsRepositoryBase: 'https://github.com/lacymorrow/lacy-nextra/tree/main/src/pages',
 	logo: Logo,
 	logoLink: '/',
-	primaryHue: 242,
+	primaryHue: 310,
+
 	faviconGlyph: '🧬',
 	feedback: {
 		content: 'Questions? Leave feedback →',
