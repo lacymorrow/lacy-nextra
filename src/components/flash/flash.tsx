@@ -3,18 +3,21 @@ import capitalize from "@/utils/capitalize";
 
 type Props = {
   name: string;
+  params?: string;
+  width?: string | number;
+  height?: string | number;
 };
 
-export const Flash = ({ name }: Props) => {
+export const Flash = ({ name, width, height, params }: Props) => {
+  const w = width && `${String(width)}px`;
+  const h = height && `${String(height)}px`;
   return (
-    <>
-      <h1 className="nx-mt-2 nx-text-4xl nx-font-bold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100">
-        Flash: {capitalize(name)}
-      </h1>
-      <div>
-        <Ruffle src={`/flash/${name}.swf`} />
-      </div>
-    </>
+    <div className="mt-8">
+      <Ruffle
+        src={`/flash/${name}.swf?${params}`}
+        style={{ width: w, height: h }}
+      />
+    </div>
   );
 };
 

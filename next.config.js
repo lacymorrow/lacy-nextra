@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+	cors: {
+    origin: "*",
+  },
+}
 
 const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
