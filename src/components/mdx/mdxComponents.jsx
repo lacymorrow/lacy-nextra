@@ -31,12 +31,19 @@ import Readme from '@/components/github/readme'
 import Flash from '@/components/flash/flash'
 import FlashArt from '@/components/flash/art'
 import Ruffle from '@/components/flash/ruffle'
+import GradientText from '@/components/text/gradient-text'
+import { Button } from '@/components/ui/button'
 
 export const componentMap = {
+	// custom
+	GradientText,
 	Readme,
 	Flash,
 	FlashArt,
 	Ruffle,
+
+	// ShadCN
+	Button,
 
 	// nextra
 	Callout,

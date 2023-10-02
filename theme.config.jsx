@@ -43,7 +43,7 @@ const themeConfig = {
 	banner: {
 		text: (
 			<a href="https://lacymorrow.github.io/crossover" target="_blank">
-				🎉 CrossOver v3.1.5 is released. Read more →
+				🎉 CrossOver v3.1.5 has been released. Read more →
 			</a>
 		)
 	},
