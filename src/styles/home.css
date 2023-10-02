@@ -1,0 +1,39 @@
+.nextra-nav-container {
+	display: none;
+}
+
+/*-----------------------------------*\
+  Animation Styles
+\*-----------------------------------*/
+
+.color-transition {
+  color: #e600c0;
+  background-image: linear-gradient(92deg, #e600c0, #f590e4);
+  background-clip: text;
+  text-fill-color: transparent;
+  animation: hue 42s infinite linear;
+}
+
+.header-img:hover {
+  animation-name: tada;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.header-img img {
+	border-radius: 50%;
+	border: 3px solid white;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	animation: pulse 5s infinite ease-in-out,  hue 42s infinite linear;
+}
+
+.content a {
+	text-underline-position: under;
+	text-decoration-line: underline;
+	text-decoration-thickness: from-font;
+}
+
+.content a:hover {
+	text-decoration-line: none;
+	animation-duration: 2s;
+}
