@@ -1,7 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	cors: {
-    origin: "*",
+	// cors: {
+  //   origin: "*",
+  // },
+	images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 's.gravatar.com',
+        port: '',
+        pathname: '/avatar/**',
+      },
+    ],
   },
 }
 

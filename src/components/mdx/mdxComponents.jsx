@@ -31,16 +31,22 @@ import Readme from '@/components/github/readme'
 import Flash from '@/components/flash/flash'
 import FlashArt from '@/components/flash/art'
 import Ruffle from '@/components/flash/ruffle'
-import GradientText from '@/components/text/gradient-text'
 import { Button } from '@/components/ui/button'
+import Image from "@/components/mdx/image";
+import ThickText from "@/components/mdx/thick-text";
+import GithubLink from "./github-link";
+
 
 export const componentMap = {
+	// NextJS
 	// custom
-	GradientText,
 	Readme,
 	Flash,
 	FlashArt,
 	Ruffle,
+	ThickText,
+	Image,
+	GithubLink,
 
 	// ShadCN
 	Button,

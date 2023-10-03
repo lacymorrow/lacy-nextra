@@ -7,6 +7,8 @@
 	list-style: disc;
 }
 
-.markdown-body p img {
+.markdown-body p a,
+.markdown-body p img
+{
 	display: inline-block;
 }
