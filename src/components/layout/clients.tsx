@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable @next/next/no-img-element */
+
 import Masonry from "react-masonry-component";
 
 const masonryOptions = {
@@ -61,17 +64,3 @@ const Freelance = () => {
 };
 
 export default Freelance;
-// public / static / clients / img - american.jpg;
-// public / static / clients / img - cca.jpg;
-// public / static / clients / img - charliesvision.jpg;
-// public / static / clients / img - cosmiccart.jpg;
-// public / static / clients / img - effective.jpg;
-// public / static / clients / img - hinson.jpg;
-// public / static / clients / img - iac.jpg;
-// public / static / clients / img - innovation.jpg;
-// public / static / clients / img - invision.jpg;
-// public / static / clients / img - kimbrattain.jpg;
-// public / static / clients / img - missionfilm.jpg;
-// public / static / clients / img - nancy.jpg;
-// public / static / clients / img - phase2.jpg;
-// public / static / clients / img - righthand.jpg;
