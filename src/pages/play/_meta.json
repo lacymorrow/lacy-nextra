@@ -1,5 +1,8 @@
 {
-  "index": "Play",
+  "index": {
+    "title": "Play",
+    "display": "hidden"
+  },
   "crossover": "CrossOver",
   "casper": "Casper WP Theme",
   "cinematic": "Cinematic",
