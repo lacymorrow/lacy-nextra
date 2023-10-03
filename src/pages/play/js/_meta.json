@@ -5,5 +5,6 @@
   "movie-trailer": "movie-trailer",
   "eslint-standard": "eslint-standard",
   "hyper2-border": "hyper2-border",
-  "xspf-playlist": "xspf-playlist"
+  "xspf-playlist": "xspf-playlist",
+  "xplayjs": "XPlay.js"
 }

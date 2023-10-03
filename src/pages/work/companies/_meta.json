@@ -1,16 +1,14 @@
 {
   "twilio": "Twilio",
-  "invitae": "Invitae",
-  "longgame": "Long Game",
-  "yahoo": "Yahoo!",
-  "10up": "10up",
-  "red-ventures": "Red Ventures",
-  "swell": {
-    "display": "hidden",
+  "swell-energy": {
     "title": "Swell Energy"
   },
+  "10up": "10up",
+  "long-game": "Long Game",
+  "invitae": "Invitae",
+  "yahoo": "Yahoo!",
+  "red-ventures": "Red Ventures",
   "app-state": {
-    "title": "Appalachian State",
-    "display": "hidden"
+    "title": "Appalachian State"
   }
 }
