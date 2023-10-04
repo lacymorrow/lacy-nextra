@@ -3,6 +3,7 @@ const nextConfig = {
 	// cors: {
   //   origin: "*",
   // },
+	experimental:{ serverActions:true, },
 	images: {
     remotePatterns: [
       {

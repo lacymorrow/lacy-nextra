@@ -1,6 +1,6 @@
 import Logo from '@/components/images/logo'
 import Socials from '@/components/layout/socials'
-import { PaperPlaneIcon } from '@radix-ui/react-icons';
+import { EnvelopeClosedIcon, PaperPlaneIcon } from '@radix-ui/react-icons';
 import { Mail } from 'lucide-react';
 import { useRouter } from 'next/router';
 const themeConfig = {
@@ -30,7 +30,7 @@ const themeConfig = {
 	},
 	chat: {
 		link: 'https://lacymorrow.com/contact',
-		icon: (<Mail className='h-20 w-20' />),
+		icon: (<EnvelopeClosedIcon className='h-6 w-6' />),
 	},
 	navigation: {
 		prev: true,
